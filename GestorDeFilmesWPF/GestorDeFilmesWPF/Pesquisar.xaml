@@ -1,0 +1,346 @@
+﻿<Window x:Class="GestorDeFilmesWPF.Pesquisar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestorDeFilmesWPF"
+        mc:Ignorable="d"
+        Icon="./Resources/search.png"
+        Height="528.594" Width="830.844">
+    <Grid>
+        <TabControl HorizontalAlignment="Left"
+		    Height="478"
+		    Margin="10,10,0,0"
+		    VerticalAlignment="Top"
+		    Width="798"  SelectionChanged = "TabControl_SelectionChanged" >
+            <TabItem Header="FILME" x:Name="MyTabItem1">
+
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="21*"/>
+                        <RowDefinition Height="202*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="345*"/>
+                        <ColumnDefinition Width="332*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="9,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="783" Height="430" Grid.ColumnSpan="2" Grid.RowSpan="2"><Run Text="Pesquisar Filme"/><LineBreak/><LineBreak/><InlineUIContainer>
+                    		<Grid Height="396" Width="326">
+                    			<Grid.ColumnDefinitions>
+                    				<ColumnDefinition Width="110*"/>
+                    				<ColumnDefinition Width="53*"/>
+                    			</Grid.ColumnDefinitions>
+                    			<TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" Height="386" Grid.ColumnSpan="2"><Run Text="T"/><Run Text="itulo: &#x9;"/><Run Text="&#x9;"/><InlineUIContainer>
+                    					<TextBox
+
+                    		Width="206" TextWrapping="Wrap" x:Name="textBox4_Copy" Height="23"/>
+
+                    				</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Categoria:"/><Run Text="             "/><InlineUIContainer>
+                    					<ComboBox
+
+                    		d:DesignUseLayoutRounding="True" Width="206" VerticalAlignment="Center" UseLayoutRounding="True" x:Name="comboBox2_Copy4" Height="22" HorizontalAlignment="Center"/>
+
+                    				</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Classificação:"/><Run Text="&#x9;"/><InlineUIContainer>
+                    					<RadioButton
+
+                    		Content="1" GroupName="Gr1" x:Name="rb1"/>
+
+                    				</InlineUIContainer><Run Text="  "/><InlineUIContainer>
+                    					<RadioButton
+
+                    		Content="2" GroupName="Gr1" x:Name="rb2"/>
+
+                    				</InlineUIContainer><Run Text="  "/><InlineUIContainer>
+                    					<RadioButton
+
+                    		Content="3" GroupName="Gr1" x:Name="rb3"/>
+
+                    				</InlineUIContainer><Run Text="  "/><InlineUIContainer>
+                    					<RadioButton
+
+                    		Content="4" GroupName="Gr1" x:Name="rb4"/>
+
+                    				</InlineUIContainer><Run Text="  "/><InlineUIContainer>
+                    					<RadioButton
+
+                    		Content="5" GroupName="Gr1" x:Name="rb5"/>
+
+                    				</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Companhia: "/><Run Text="        "/><InlineUIContainer>
+                    					<ComboBox
+
+                    		d:DesignUseLayoutRounding="True" Width="206" VerticalAlignment="Center" UseLayoutRounding="True" x:Name="comboBox2_Copy1" Height="22" HorizontalAlignment="Center"/>
+
+                    				</InlineUIContainer><LineBreak/><Run Text="&#x9;"/><Run Text="&#x9;"/><LineBreak/><Run Text="Diretor: &#x9;"/><Run Text="              "/><InlineUIContainer>
+                    					<ComboBox
+
+                    		d:DesignUseLayoutRounding="True" Width="206" VerticalAlignment="Center" UseLayoutRounding="True" x:Name="comboBox2_Copy2" Height="22" HorizontalAlignment="Center"/>
+
+                    				</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Realizador:"/><Run Text="          "/><Run Text=" "/><InlineUIContainer>
+                    					<ComboBox
+
+                    		d:DesignUseLayoutRounding="True" Width="206" VerticalAlignment="Center" UseLayoutRounding="True" x:Name="comboBox2_Copy" Height="22" HorizontalAlignment="Center"/>
+
+                    				</InlineUIContainer><LineBreak/><LineBreak/><Run Text="&#x9;&#x9;&#x9;&#x9;          "/><InlineUIContainer>
+                    					<Button
+
+                    		Width="75" x:Name="button5" Content="Pesquisar" Click="button5_Click"/>
+
+                    				</InlineUIContainer><LineBreak/><Run Text="____________________________________________________________"/><LineBreak/></TextBlock>
+
+                    		</Grid>
+                    	</InlineUIContainer><InlineUIContainer>
+                    		<Grid Height="407" Width="450">
+                    			<TextBlock x:Name="textBlock1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,0,0,0"><InlineUIContainer>
+                    					<DataGrid x:Name="dataGrid" Width="442" Height="386"/>
+                    				</InlineUIContainer></TextBlock>
+                    		</Grid>
+                    	</InlineUIContainer><LineBreak/></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="ATOR">
+                <Grid Background="#FFE5E5E5" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="317" Height="440" Grid.ColumnSpan="2"><Run Text="Pesquisar Ator"/><LineBreak/><LineBreak/><Run Text="Nome: "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox" Height="23" TextWrapping="Wrap"  Width="206"/> 
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Keyword Biogr"/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox1" Height="23" TextWrapping="Wrap" Text="" Width="205"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run Text="&#x9;"/><Run Text="&#x9;&#x9;&#x9;           "/><InlineUIContainer>
+                    		
+                    		<Button x:Name="button" Content="Pesquisar" Width="75" Click="button_Click"/>
+                    	</InlineUIContainer><InlineUIContainer/><LineBreak/><Run Text="_______________________________________________________________"/><LineBreak/><Run Text="Foto (preview)"/><Run Text=":"/><Run Text=" "/><InlineUIContainer>
+                    		<ComboBox x:Name="comboBox" Width="218"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<Image x:Name="image" Source="Resources/newuser.png" Height="224" Width="212"/>
+                    	</InlineUIContainer><InlineUIContainer/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left"
+                    	Margin="341,36,0,0"
+                    	TextWrapping="Wrap"
+                    	VerticalAlignment="Top"
+                    	Width="441" Height="386" Grid.Column="1"><InlineUIContainer>
+                    		<DataGrid x:Name="dataGrid1" DataContext="MyViewModel" Width="438" Height="361">
+                                <DataGrid.Resources>
+                                  <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" 
+                                                   Color="#FF0000"/>
+                                </DataGrid.Resources>
+                            </DataGrid>
+                    	</InlineUIContainer></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="REALIZADOR">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="317" Height="246"><Run Text="Pesquisar Realizador"/><LineBreak/><LineBreak/><Run Text="Nome: "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox22" Height="23" TextWrapping="Wrap"  Width="203"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run Text="&#x9;&#x9;&#x9;&#x9;          "/><InlineUIContainer>
+                    		<Button x:Name="button2" Content="Pesquisar" Width="75" Click="button2_Click"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="____________________________________________________________"/></TextBlock>
+                    <DataGrid x:Name="dataGrid1_Copy" Margin="348,33,17,27"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="ESCRITOR">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="313" Height="246"><Run Text="Pesquisar Escritor"/><LineBreak/><LineBreak/><Run Text="Nome: "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                			<TextBox x:Name="textBoxe" Height="23" TextWrapping="Wrap"  Width="206"/>
+                		</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Keyword Biogr"/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                			<TextBox x:Name="textBox2" Height="23" TextWrapping="Wrap"  Width="204"/>
+                		</InlineUIContainer><LineBreak/><LineBreak/><Run Text="&#x9;&#x9;&#x9;&#x9;           "/><InlineUIContainer>
+                			<Button x:Name="button3" Content="Pesquisar" Width="75" Click="button3_Click"/>
+                		</InlineUIContainer><LineBreak/><Run Text="____________________________________________________________"/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left"
+                    	Margin="341,36,0,0"
+                    	TextWrapping="Wrap"
+                    	VerticalAlignment="Top"
+                    	Width="441" Height="386" Grid.Column="1"><InlineUIContainer>
+                    		<DataGrid x:Name="dataGrid2" DataContext="MyViewModel" Width="438" Height="361">
+                                <DataGrid.Resources>
+                                  <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" 
+                                                   Color="#FF0000"/>
+                                </DataGrid.Resources>
+                            </DataGrid>
+                    	</InlineUIContainer></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="DIRECTOR">
+                <Grid Background="#FFE5E5E5" HorizontalAlignment="Left" Width="794" Margin="0,0,-2,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30*"/>
+                        <ColumnDefinition Width="349*"/>
+                        <ColumnDefinition Width="21*"/>
+                        <ColumnDefinition Width="0*"/>
+                        <ColumnDefinition Width="394*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="314" Height="246" Grid.ColumnSpan="2"><Run Text="Pesquisar "/><Run Text="Di"/><Run Text="retor"/><LineBreak/><LineBreak/><Run Text="Nome: "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                			<TextBox x:Name="textBoxd" Height="23" TextWrapping="Wrap"  Width="203"/>
+                		</InlineUIContainer><LineBreak/><LineBreak/><Run Text="&#x9;&#x9;&#x9;&#x9;          "/><InlineUIContainer>
+                			<Button x:Name="button4" Content="Pesquisar" Width="75" Click="button4_Click"/>
+                		</InlineUIContainer><LineBreak/><Run Text="____________________________________________________________"/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left"
+                    	Margin="341,36,-18,0"
+                    	TextWrapping="Wrap"
+                    	VerticalAlignment="Top"
+                    	Width="441" Height="386" Grid.Column="1" Grid.ColumnSpan="4"><InlineUIContainer>
+                    		<DataGrid x:Name="dataGrid3" DataContext="MyViewModel" Width="411" Height="361">
+                    			<DataGrid.Resources>
+                    				<SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" 
+                    					Color="#FF0000"/>
+                    			</DataGrid.Resources>
+                    		</DataGrid>
+                    	</InlineUIContainer></TextBlock>
+                </Grid>
+            </TabItem>
+
+
+            <TabItem Header="MÚSICA">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="367*"/>
+                        <RowDefinition Height="83*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock
+                		Margin="10,10,467,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top" Height="417" Grid.RowSpan="2"><Run Text="Pesquisar Música"/><LineBreak/><LineBreak/><Run Text="Titulo"/><Run Text=": "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBoxm" Height="23" TextWrapping="Wrap"  Width="203"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Genero"/><Run Text="&#x9;"/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox6" Height="23" TextWrapping="Wrap"  Width="203"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Banda/Interpret:"/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox1m" Height="23" TextWrapping="Wrap"  Width="203"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run Text="&#x9;&#x9;&#x9;&#x9;         "/><InlineUIContainer>
+                    		<Button x:Name="button1" Content="Pesquisar" Width="75" Click="button1_Click"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="____________________________________________________________"/><InlineUIContainer/><LineBreak/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left"
+                    	Margin="341,36,0,0"
+                    	TextWrapping="Wrap"
+                    	VerticalAlignment="Top"
+                    	Width="441" Height="386" Grid.RowSpan="2"><InlineUIContainer>
+                    		<DataGrid x:Name="dataGrid4" DataContext="MyViewModel" Width="438" Height="361">
+                                <DataGrid.Resources>
+                                  <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" 
+                                                   Color="#FF0000"/>
+                                </DataGrid.Resources>
+                            </DataGrid>
+                    	</InlineUIContainer></TextBlock>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="TRAILER">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+			       Margin="10,10,0,0"
+			       TextWrapping="Wrap"
+			       VerticalAlignment="Top"
+			       Width="280" Height="351"><Run Text="Pesquisar Trailer"/><Run Text=" de um filme"/><LineBreak/><LineBreak/><Run Text="Filme:"/><Run Text="&#x9;"/><Run Text=" "/><InlineUIContainer>
+                    		<ComboBox x:Name="comboBox3" Width="203" SelectionChanged="MyComboBox_OnSelectionChanged"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Titulo:"/><Run Text="&#x9;"/><Run Text=" "/><InlineUIContainer>
+                    		<TextBox x:Name="textBox11" Height="23" TextWrapping="Wrap"  Width="203"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Data:"/><Run Text="&#x9;"/><Run Text=" "/><InlineUIContainer>
+                    		<DatePicker Width="203" x:Name="trailDat"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Idioma: "/><Run Text="&#x9;"/><Run Text=" "/><InlineUIContainer>
+                    		<TextBox x:Name="textBox12" Height="23" TextWrapping="Wrap"  Width="203"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><LineBreak/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left"
+                    	Margin="341,36,0,0"
+                    	TextWrapping="Wrap"
+                    	VerticalAlignment="Top"
+                    	Width="441" Height="386" Grid.Column="1"><InlineUIContainer>
+                    		<DataGrid x:Name="dataGrid5" DataContext="MyViewModel" Width="438" Height="361">
+                                <DataGrid.Resources>
+                                  <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" 
+                                                   Color="#FF0000"/>
+                                </DataGrid.Resources>
+                            </DataGrid>
+                    	</InlineUIContainer></TextBlock>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="PRÉMIO" HorizontalAlignment="Right" Width="59">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Left"
+			       Margin="10,10,0,0"
+			       TextWrapping="Wrap"
+			       VerticalAlignment="Top"
+			       Width="312" Height="351"><Run Text="Pesquisar Prémio"/><Run Text=" de um filme"/><LineBreak/><LineBreak/><Run Text="Filme:"/><Run Text="&#x9;"/><Run Text=" "/><Run Text="  "/><InlineUIContainer>
+                    		<ComboBox x:Name="comboBox3f" Width="203" SelectionChanged="MyComboBox_OnSelectionChanged"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Ano"/><Run Text=":"/><Run Text="&#x9;"/><Run Text=" "/><Run Text="  "/><InlineUIContainer>
+                    		<TextBox x:Name="textBox11f" Height="23" TextWrapping="Wrap"  Width="203"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Tipo"/><Run Text=":"/><Run Text="&#x9;"/><Run Text="   "/><InlineUIContainer>
+                    		<TextBox x:Name="textBox10f" Height="23" TextWrapping="Wrap"  Width="203"/>
+                    	</InlineUIContainer></TextBlock>
+                    <TextBlock HorizontalAlignment="Left"
+                    	Margin="341,36,0,0"
+                    	TextWrapping="Wrap"
+                    	VerticalAlignment="Top"
+                    	Width="441" Height="386" Grid.Column="1"><InlineUIContainer>
+                    		<DataGrid x:Name="dataGrid6" DataContext="MyViewModel" Width="438" Height="361">
+                                <DataGrid.Resources>
+                                  <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" 
+                                                   Color="#FF0000"/>
+                                </DataGrid.Resources>
+                            </DataGrid>
+                    	</InlineUIContainer></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="LANÇAMENTO">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+			       Margin="10,10,0,0"
+			       TextWrapping="Wrap"
+			       VerticalAlignment="Top"
+			       Width="301"><Run Text="Pesquisar Lançamento de um Filme"/><LineBreak/><Run/><LineBreak/><Run Text="Filme: &#x9;"/><InlineUIContainer>
+                    		<ComboBox x:Name="comboBox4" Width="203" SelectionChanged="MyComboBox_OnSelectionChanged"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Titulo"/><Run Text=":"/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox13" Height="23" TextWrapping="Wrap"  Width="203"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Data"/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<DatePicker Width="203" x:Name="dplanc"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Pa"/><Run Text="ís:"/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox14" Height="23" TextWrapping="Wrap" Width="203"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><LineBreak/><LineBreak/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left"
+                    	Margin="341,36,0,0"
+                    	TextWrapping="Wrap"
+                    	VerticalAlignment="Top"
+                    	Width="441" Height="386" Grid.Column="1"><InlineUIContainer>
+                    		<DataGrid x:Name="dataGrid7" DataContext="MyViewModel" Width="438" Height="361">
+                                <DataGrid.Resources>
+                                  <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" 
+                                                   Color="#FF0000"/>
+                                </DataGrid.Resources>
+                            </DataGrid>
+                    	</InlineUIContainer></TextBlock>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
+
+
+    </Grid>
+</Window>

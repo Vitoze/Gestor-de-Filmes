@@ -1,0 +1,64 @@
+﻿<Window x:Class="GestorDeFilmesWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestorDeFilmesWPF"
+        mc:Ignorable="d"
+        Icon="./Resources/iconApp.png"
+        Title="Gestor de Filmes" Height="220.385" Width="711.812">
+    <Grid Margin="0,0,2,9">
+        <TextBox x:Name="user" HorizontalAlignment="Left" Height="23" Margin="236,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186"/>
+        <PasswordBox x:Name="pass" HorizontalAlignment="Left" PasswordChar="*" Height="23" Margin="236,95,0,0" VerticalAlignment="Top" Width="186"/>
+        <Button x:Name="button" Content="Login" HorizontalAlignment="Left" Margin="449,95,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="login"  Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.InactiveCaptionTextBrushKey}}">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.HotTrackColorKey}}"/>
+            </Button.BorderBrush>
+        </Button>
+        <Label x:Name="label" Content="Username" HorizontalAlignment="Left" Margin="171,57,0,0" VerticalAlignment="Top" Height="23"/>
+        <Label x:Name="labe2" Content="Password" HorizontalAlignment="Left" Margin="171,95,0,0" VerticalAlignment="Top" Height="23"/>
+        <Button x:Name="button1" Content="Register" HorizontalAlignment="Left" Margin="538,95,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="register" Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.InactiveCaptionTextBrushKey}}">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.HotTrackColorKey}}"/>
+            </Button.BorderBrush>
+        </Button>
+
+        <TextBox x:Name="userAdd" HorizontalAlignment="Left" Height="23" Margin="236,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186"/>
+        <PasswordBox x:Name="passAdd" HorizontalAlignment="Left" PasswordChar="*" Height="23" Margin="236,95,0,0" VerticalAlignment="Top" Width="186"/>
+        <Button x:Name="button2" Content="Adicionar user" HorizontalAlignment="Left" Margin="481,97,0,0" VerticalAlignment="Top" Width="104" Click="addNewUser"  Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.InactiveCaptionTextBrushKey}}">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.HotTrackColorKey}}"/>
+            </Button.BorderBrush>
+        </Button>
+        <Image x:Name="image1" Source="/Resources/login.png"  HorizontalAlignment="Left" Height="100" Margin="25,30,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="image2" Source="/Resources/newuser.png"  HorizontalAlignment="Left" Height="100" Margin="25,30,0,0" VerticalAlignment="Top" Width="100"/>
+
+        <Button Name="b1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="167" Click="button_Click" Height="161">
+            <StackPanel>
+                <Image Source="./Resources/add.png" Height="156" />
+                <TextBlock>Disconnect from Server</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Name="b2" HorizontalAlignment="Left" Margin="182,10,0,0" VerticalAlignment="Top" Width="167" Click="button1_Click" Height="161">
+            <StackPanel>
+                <Image Source="./Resources/edit.png" Height="155" Width="165" />
+                <TextBlock>Disconnect from Server</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Name="b3" HorizontalAlignment="Left" Margin="354,10,0,0"  VerticalAlignment="Top" Width="167" Click="button2_Click" Height="161">
+            <StackPanel>
+                <Image Source="./Resources/search.png" Height="154" Width="163" />
+                <TextBlock>Disconnect from Server</TextBlock>
+            </StackPanel>
+        </Button>
+        <Button Name="b4"  HorizontalAlignment="Left" Margin="526,10,0,0"  VerticalAlignment="Top" Width="167" Click="button3_Click" Height="161">
+            <StackPanel>
+                <Image Source="Resources/information.png" Height="155" Width="163" />
+                <TextBlock><Run Text="Disconnect from Server"/></TextBlock>
+            </StackPanel>
+        </Button>
+
+    </Grid>
+</Window>

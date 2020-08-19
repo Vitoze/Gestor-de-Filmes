@@ -1,0 +1,9 @@
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\GestorDeFilmesWFA\GestorDeFilmesWFA\bin\Debug\GestorDeFilmesWFA.exe.config
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\GestorDeFilmesWFA\GestorDeFilmesWFA\bin\Debug\GestorDeFilmesWFA.exe
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\GestorDeFilmesWFA\GestorDeFilmesWFA\bin\Debug\GestorDeFilmesWFA.pdb
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\GestorDeFilmesWFA\GestorDeFilmesWFA\obj\Debug\GestorDeFilmesWFA.Form.resources
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\GestorDeFilmesWFA\GestorDeFilmesWFA\obj\Debug\GestorDeFilmesWFA.Properties.Resources.resources
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\GestorDeFilmesWFA\GestorDeFilmesWFA\obj\Debug\GestorDeFilmesWFA.csproj.GenerateResource.Cache
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\GestorDeFilmesWFA\GestorDeFilmesWFA\obj\Debug\GestorDeFilmesWFA.exe
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\GestorDeFilmesWFA\GestorDeFilmesWFA\obj\Debug\GestorDeFilmesWFA.pdb
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\GestorDeFilmesWFA\GestorDeFilmesWFA\obj\Debug\GestorDeFilmesWFA.csprojResolveAssemblyReference.cache

@@ -1,0 +1,241 @@
+﻿<Window x:Class="GestorDeFilmesWPF.Adicionar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestorDeFilmesWPF"
+        mc:Ignorable="d"
+        Icon="./Resources/add.png"
+        Height="528.594" Width="714.844">
+    <Grid>
+        <TabControl HorizontalAlignment="Left"
+		    Height="478"
+		    Margin="10,10,0,0"
+		    VerticalAlignment="Top"
+		    Width="687"  SelectionChanged = "TabControl_SelectionChanged" >
+            <TabItem Header="FILME" x:Name="MyTabItem1">
+
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="661" Height="430"><Run Text="Adicionar novo filme"/><LineBreak/><LineBreak/><InlineUIContainer>
+                			<Grid Height="396" Width="326">
+                				<TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" Height="386"><Run Text="T"/><Run Text="itulo: "/><Run Text="&#x9;"/><Run Text="&#x9;"/><InlineUIContainer>
+                						<TextBox x:Name="textBox4" Height="23" TextWrapping="Wrap"  Width="210"/>
+                					</InlineUIContainer><LineBreak/><Run Text="Descrição: "/><Run Text="&#x9;"/><InlineUIContainer>
+                						<TextBox x:Name="textBox7" Height="23" TextWrapping="Wrap" Width="208"/>
+                					</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Categoria:"/><Run Text="&#x9;"/><InlineUIContainer>
+                						<ComboBox x:Name="comboBox1" Width="207" SelectionChanged="MyComboBox_OnSelectionChanged"/>
+                					</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Classificação:"/><Run Text="&#x9;"/><InlineUIContainer>
+                						<RadioButton x:Name="rb1" GroupName="Gr1" Content="1"/>
+                					</InlineUIContainer><Run Text="  "/><InlineUIContainer>
+                						<RadioButton x:Name="rb2" GroupName="Gr1" Content="2"/>
+                					</InlineUIContainer><Run Text="  "/><InlineUIContainer>
+                						<RadioButton x:Name="rb3"  GroupName="Gr1" Content="3"/>
+                					</InlineUIContainer><Run Text="  "/><InlineUIContainer>
+                						<RadioButton x:Name="rb4" GroupName="Gr1" Content="4"/>
+                					</InlineUIContainer><Run Text="  "/><InlineUIContainer>
+                						<RadioButton x:Name="rb5" GroupName="Gr1" Content="5"/>
+                					</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Duração:"/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                						<TextBox x:Name="NumberTextBox" Height="23" TextWrapping="Wrap"  Width="62"/>
+                					</InlineUIContainer><LineBreak/><Run Text="Companhia: &#x9;"/><InlineUIContainer>
+                						<ComboBox x:Name="comboBox" Width="205" SelectionChanged="MyComboBox_OnSelectionChanged"/>
+                					</InlineUIContainer><LineBreak/><Run Text="&#x9;"/><Run Text="&#x9;"/><InlineUIContainer>
+                						<TextBox x:Name="textBox8" Height="21" TextWrapping="Wrap" Width="188"/>
+                					</InlineUIContainer><InlineUIContainer>
+                						<Button x:Name="button5" Content="+" Width="17" Click="addnewCompanhia" Height="22"/>
+                					</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Diretor: &#x9;&#x9;"/><InlineUIContainer>
+                						<ComboBox x:Name="comboBox2" Width="206" SelectionChanged="MyComboBox_OnSelectionChanged" />
+                					</InlineUIContainer><LineBreak/><Run Text="Escritores:"/><LineBreak/><Run Text="&#x9;"/><Run Text="  "/><Run Text="&#x9;"/><InlineUIContainer>
+                						<ListBox x:Name="listBox1" Height="100" Width="205" SelectionChanged="MyComboBox_OnSelectionChanged"/>
+                					</InlineUIContainer></TextBlock>
+
+                			</Grid>
+                		</InlineUIContainer><InlineUIContainer>
+                			<Grid Height="407" Width="332">
+                				<TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="312" Height="386"><Run Text="Realizador: "/><InlineUIContainer>
+                						<ComboBox x:Name="comboBox5" Width="233" SelectionChanged="MyComboBox_OnSelectionChanged"/>
+                					</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Elenco:"/><LineBreak/><Run Text=" "/><Run Text="&#x9;"/><InlineUIContainer>
+                						<ListBox x:Name="listBox" Height="118" Width="253" SelectionChanged="MyComboBox_OnSelectionChanged"/>
+                					</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Band"/><Run Text="a"/><Run Text=" Sonora:"/><LineBreak/><Run Text="&#x9;"/><InlineUIContainer>
+                						<ListBox x:Name="listBox2" Height="109" Width="253" SelectionChanged="MyComboBox_OnSelectionChanged"/>
+                					</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+                						<Button x:Name="button4" Content="Adicionar" Width="75" Click="addFilme"/>
+                					</InlineUIContainer><Run Text=" "/><LineBreak/></TextBlock>
+                			</Grid>
+                		</InlineUIContainer><LineBreak/></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="ATOR">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="617" Height="246"><Run Text="Adicionar "/><Run Text="novo ator"/><LineBreak/><LineBreak/><Run Text="Nome: "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                			<TextBox x:Name="textBox" Height="23" TextWrapping="Wrap"  Width="479"/>
+                		</InlineUIContainer><LineBreak/><Run Text="Data de Nas"/><Run Text="."/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                			<DatePicker x:Name="dateTimePicker1" Width="479"/>
+                		</InlineUIContainer><LineBreak/><Run Text="Foto(URL): "/><Run Text="&#x9;"/><InlineUIContainer>
+                			<TextBox x:Name="textBox1" Height="23" TextWrapping="Wrap"  Width="479"/>
+                		</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Descrição:"/><LineBreak/><Run Text=" "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                			<TextBox x:Name="textBox2" Height="53" TextWrapping="Wrap"  Width="482"/>
+                		</InlineUIContainer><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+                			<Button x:Name="button" Content="Adicionar" Width="75" Click="adicionarAtor"/>
+
+                		</InlineUIContainer><Run Text="  "/></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="REALIZADOR">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="617" Height="246"><Run Text="Adicionar "/><Run Text="novo "/><Run Text="realizador"/><LineBreak/><LineBreak/><Run Text="Nome: "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox22" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Data de Nas"/><Run Text="."/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<DatePicker x:Name="dpRea" Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Foto(URL): "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox3" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+                    		<Button x:Name="button2" Content="Adicionar" Width="75" Click="adicionarRealizador"/>
+
+                    	</InlineUIContainer><Run Text="  "/></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="ESCRITOR">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="617" Height="246"><Run Text="Adicionar "/><Run Text="novo "/><Run Text="escritor"/><LineBreak/><LineBreak/><Run Text="Nome: "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBoxe" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Data de Nas"/><Run Text="."/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<DatePicker x:Name="dpEscr" Width="477"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Foto(URL): "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox1e" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Descrição:"/><LineBreak/><Run Text=" "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox2e" Height="53" TextWrapping="Wrap"  Width="482"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+                    		<Button x:Name="buttone" Content="Adicionar" Width="75" Click="adicionarEscritor"/>
+
+                    	</InlineUIContainer><Run Text="  "/></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="DIRECTOR">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="617" Height="246"><Run Text="Adicionar "/><Run Text="novo "/><Run Text="diretor"/><LineBreak/><LineBreak/><Run Text="Nome: "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBoxd" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Data de Nas"/><Run Text="."/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<DatePicker x:Name="dpdir" Width="478"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Foto(URL): "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox1d" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+                    		<Button x:Name="buttond" Content="Adicionar" Width="75" Click="adicionarDiretor"/>
+
+                    	</InlineUIContainer><Run Text="  "/></TextBlock>
+                </Grid>
+            </TabItem>
+
+
+            <TabItem Header="MÚSICA">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="617" Height="246"><Run Text="Adicionar "/><Run Text="nov"/><Run Text="a música"/><LineBreak/><LineBreak/><Run Text="Titulo"/><Run Text=": "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBoxm" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Genero"/><Run Text="&#x9;"/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox6" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Banda/Interpret:"/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox1m" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="URL"/><Run Text=" (Youtube)"/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox5" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text=" "/><Run Text="&#x9;&#x9;"/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+                    		<Button x:Name="buttonm" Content="Adicionar" Width="75" Click="adicionarMusica"/>
+
+                    	</InlineUIContainer><Run Text="  "/></TextBlock>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="TRAILER">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+			       Margin="10,10,0,0"
+			       TextWrapping="Wrap"
+			       VerticalAlignment="Top"
+			       Width="641" Height="351"><Run Text="Adicionar novo trailer"/><Run Text=" a um filme"/><LineBreak/><LineBreak/><Run Text="Filme:"/><Run Text="&#x9;"/><Run Text=" "/><InlineUIContainer>
+                    		<ComboBox x:Name="comboBox3" Width="478" SelectionChanged="MyComboBox_OnSelectionChanged"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Titulo:"/><Run Text="&#x9;"/><Run Text=" "/><InlineUIContainer>
+                    		<TextBox x:Name="textBox11" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="URL:"/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox10" Height="23" TextWrapping="Wrap"  Width="482"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Duração: "/><InlineUIContainer>
+                    		<TextBox x:Name="textBox9" Height="23" TextWrapping="Wrap"  Width="64"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Data:"/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<DatePicker Width="483" x:Name="trailDat"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Idioma: "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox12" Height="23" TextWrapping="Wrap"  Width="484"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><InlineUIContainer>
+                    		<Button x:Name="button1" Content="Adicionar" Width="75" Click="addTrailerAoFilme"/>
+                    	</InlineUIContainer><LineBreak/></TextBlock>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="PRÉMIO" HorizontalAlignment="Right" Width="59">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="357*"/>
+                        <ColumnDefinition Width="11*"/>
+                        <ColumnDefinition Width="0*"/>
+                        <ColumnDefinition Width="313*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Left"
+			       Margin="10,10,0,0"
+			       TextWrapping="Wrap"
+			       VerticalAlignment="Top"
+			       Width="641" Height="351" Grid.ColumnSpan="4"><Run Text="Adicionar "/><Run Text="novo prémio"/><Run Text=" a um filme"/><LineBreak/><LineBreak/><Run Text="Filme:"/><Run Text="&#x9;"/><Run Text=" "/><Run Text="  "/><InlineUIContainer>
+                    		<ComboBox x:Name="comboBox3f" Width="479" SelectionChanged="MyComboBox_OnSelectionChanged"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Ano"/><Run Text=":"/><Run Text="&#x9;"/><Run Text=" "/><Run Text="  "/><InlineUIContainer>
+                    		<TextBox x:Name="textBox11f" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Tipo"/><Run Text=":"/><Run Text="&#x9;"/><Run Text="   "/><InlineUIContainer>
+                    		<TextBox x:Name="textBox10f" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Descricao"/><Run Text=": "/><InlineUIContainer>
+                    		<TextBox x:Name="textBox9f" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><LineBreak/><InlineUIContainer>
+                    		<Button x:Name="button1f" Content="Adicionar" Width="75" Click="addPremioAoFilme"/>
+                    	</InlineUIContainer><LineBreak/></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="LANÇAMENTO">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+			       Margin="10,10,0,0"
+			       TextWrapping="Wrap"
+			       VerticalAlignment="Top"
+			       Width="604"><Run Text="Adicionar uma nova data de lançamento a um filme"/><LineBreak/><Run/><LineBreak/><Run Text="Filme: &#x9;"/><InlineUIContainer>
+                    		<ComboBox x:Name="comboBox4" Width="479" SelectionChanged="MyComboBox_OnSelectionChanged"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Titulo"/><Run Text=":"/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox13" Height="23" TextWrapping="Wrap"  Width="480"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Data"/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<DatePicker Width="479" x:Name="dplanc"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Pa"/><Run Text="ís:"/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox14" Height="23" TextWrapping="Wrap" Width="480"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><LineBreak/><InlineUIContainer>
+                    		<Button x:Name="button3" Content="Adicionar" Width="75" Click="addLancamwentoaumfilme"/>
+                    	</InlineUIContainer><LineBreak/></TextBlock>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

@@ -1,0 +1,220 @@
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\csc.exe
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\System.Collections.Immutable.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\System.Reflection.Metadata.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\vbc.exe
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\VBCSCompiler.exe
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\VBCSCompiler.exe.config
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\gestor_filmesWebSite.dll.config
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\gestor_filmesWebSite.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\gestor_filmesWebSite.pdb
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Antlr3.Runtime.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\AspNet.ScriptManager.bootstrap.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\AspNet.ScriptManager.jQuery.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\EntityFramework.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\EntityFramework.SqlServer.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.Core.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Cookies.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Facebook.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Google.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.OAuth.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Twitter.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.ScriptManager.WebForms.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Web.Infrastructure.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Newtonsoft.Json.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Owin.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Web.Optimization.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Web.Providers.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\WebGrease.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Web.Optimization.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Antlr3.Runtime.pdb
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Newtonsoft.Json.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\EntityFramework.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\EntityFramework.SqlServer.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.Core.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Web.Providers.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Facebook.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Cookies.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Google.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Twitter.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.OAuth.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\obj\Debug\gestor_filmesWebSite.csprojResolveAssemblyReference.cache
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\obj\Debug\gestor_filmesWebSite.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\obj\Debug\gestor_filmesWebSite.pdb
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\FontAwesomeIcons.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\FontAwesomeIcons.pdb
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\FontAwesomeIcons.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\AjaxControlToolkit.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\RJS.Web.WebControl.PopCalendar.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\csc.exe
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\vbc.exe
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\gestor_filmesWebSite.dll.config
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\gestor_filmesWebSite.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\gestor_filmesWebSite.pdb
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\AjaxControlToolkit.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Antlr3.Runtime.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\EntityFramework.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\EntityFramework.SqlServer.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\FontAwesomeIcons.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Newtonsoft.Json.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Owin.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\RJS.Web.WebControl.PopCalendar.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Web.Optimization.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Web.Providers.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\WebGrease.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\FontAwesomeIcons.pdb
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\FontAwesomeIcons.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Web.Optimization.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Antlr3.Runtime.pdb
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Newtonsoft.Json.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\EntityFramework.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\EntityFramework.SqlServer.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Web.Providers.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\obj\Debug\gestor_filmesWebSite.csprojResolveAssemblyReference.cache
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\obj\Debug\gestor_filmesWebSite.dll
+C:\Users\Rui Oliveira\Desktop\gestorfilmesBDIHC-master\gestor_filmesWebSite\gestor_filmesWebSite\obj\Debug\gestor_filmesWebSite.pdb
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\csc.exe
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\vbc.exe
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\VBCSCompiler.exe
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\gestor_filmesWebSite.dll.config
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\gestor_filmesWebSite.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\gestor_filmesWebSite.pdb
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\AjaxControlToolkit.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Antlr3.Runtime.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\EntityFramework.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\EntityFramework.SqlServer.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\FontAwesomeIcons.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Newtonsoft.Json.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Owin.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\RJS.Web.WebControl.PopCalendar.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Web.Optimization.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Web.Providers.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\WebGrease.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\FontAwesomeIcons.pdb
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\FontAwesomeIcons.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Web.Optimization.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Antlr3.Runtime.pdb
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Newtonsoft.Json.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\EntityFramework.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\EntityFramework.SqlServer.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Web.Providers.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\obj\Debug\gestor_filmesWebSite.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\obj\Debug\gestor_filmesWebSite.dll
+C:\Users\Toshiba\Desktop\Universidade\3º Ano\2º Semestre\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\obj\Debug\gestor_filmesWebSite.pdb
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Caliburn.Micro.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Caliburn.Micro.Telerik.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Windows.Interactivity.dll
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Caliburn.Micro.pdb
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Caliburn.Micro.xml
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\Caliburn.Micro.Telerik.pdb
+D:\gestorfilmesBDIHC\gestor_filmesWebSite\gestor_filmesWebSite\bin\System.Windows.Interactivity.xml

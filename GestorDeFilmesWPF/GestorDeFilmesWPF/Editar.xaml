@@ -1,0 +1,138 @@
+﻿<Window x:Class="GestorDeFilmesWPF.Editar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestorDeFilmesWPF"
+        mc:Ignorable="d"
+        Icon="./Resources/edit.png"
+        Height="424.594" Width="714.844">
+    <Grid>
+        <TabControl HorizontalAlignment="Left"
+		    Margin="10,10,0,10"
+		    Width="687"  SelectionChanged = "TabControl_SelectionChanged">
+
+
+
+            <TabItem Header="ATOR">
+                <Grid Background="#FFE5E5E5" Margin="0,0,0,-1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="66*"/>
+                        <ColumnDefinition Width="28*"/>
+                        <ColumnDefinition Width="587*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="617" Height="345" Grid.ColumnSpan="3"><LineBreak/><Run Text="Editar"/><Run Text=" ator"/><Run Text=":"/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<ComboBox x:Name="comboBox" Width="478" SelectionChanged="MyComboBoxAtor_OnSelectionChanged2"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Nome: "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Data de Nas"/><Run Text="."/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<DatePicker x:Name="dateTimePicker1" Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Foto(URL): "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox1" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Descrição:"/><LineBreak/><Run Text=" "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox2" Height="115" TextWrapping="Wrap"  Width="482"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+                    		<Button x:Name="button" Content="Atualizar Ator" Width="124" Click="editAtor"/>
+
+                    	</InlineUIContainer><Run Text="  "/></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="REALIZADOR">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="51*"/>
+                        <ColumnDefinition Width="176*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="617" Height="246" Grid.ColumnSpan="2"><Run/><LineBreak/><Run Text="Editar"/><Run Text=" "/><Run Text="realizador"/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<ComboBox x:Name="comboBox1" Width="478" SelectionChanged="MyComboBoxRealizador_OnSelectionChanged2"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Nome: "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox22" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Data de Nas"/><Run Text="."/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<DatePicker x:Name="dpRea" Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Foto(URL): "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox3" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+                    		<Button x:Name="button2" Content="Atualizar realizador" Width="136" Click="editRealizador"/>
+
+                    	</InlineUIContainer><Run Text="  "/></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="ESCRITOR">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="617" Height="274"><Run/><LineBreak/><Run Text="Editar"/><Run Text=" "/><Run Text="escritor"/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<ComboBox x:Name="comboBox2" Width="477" SelectionChanged="MyComboBoxEscritor_OnSelectionChanged2"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Nome: "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBoxe" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Data de Nas"/><Run Text="."/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<DatePicker x:Name="dpEscr" Width="477"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Foto(URL): "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox1e" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><Run Text="Descrição:"/><LineBreak/><Run Text=" "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox2e" Height="53" TextWrapping="Wrap"  Width="482"/>
+                    	</InlineUIContainer><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+                    		<Button x:Name="buttone" Content="Atualizar escritor" Width="120" Click="editEscritor"/>
+
+                    	</InlineUIContainer><Run Text="  "/></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="DIRECTOR">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,0"
+                		TextWrapping="Wrap"
+                		VerticalAlignment="Top"
+                		Width="617" Height="246"><Run/><LineBreak/><Run Text="Editar diretor:"/><Run Text="&#x9;"/><Run Text=" "/><InlineUIContainer>
+                    		<ComboBox x:Name="comboBox3" Width="475" SelectionChanged="MyComboBoxDiretor_OnSelectionChanged2"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Nome: "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBoxd" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Data de Nas"/><Run Text="."/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<DatePicker x:Name="dpdir" Width="478"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Foto(URL): "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox1d" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+                    		<Button x:Name="buttond" Content="Atualizar diretor" Width="139" Click="editDiretor"/>
+
+                    	</InlineUIContainer><Run Text="  "/></TextBlock>
+                </Grid>
+            </TabItem>
+
+
+            <TabItem Header="MÚSICA">
+                <Grid Background="#FFE5E5E5" Margin="0,0,0,6">
+                    <TextBlock HorizontalAlignment="Left"
+                		Margin="10,10,0,-102"
+                		TextWrapping="Wrap"
+                		Width="617"><Run/><LineBreak/><Run Text="Editar musica: "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<ComboBox x:Name="comboBox4" Width="478" SelectionChanged="MyComboBoxMusica_OnSelectionChanged2"/>
+                    	</InlineUIContainer><LineBreak/><LineBreak/><Run Text="Titulo"/><Run Text=": "/><Run Text="&#x9;&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBoxm" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Genero"/><Run Text="&#x9;"/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox6" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="Banda/Interpret:"/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox1m" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text="URL"/><Run Text=" (Youtube)"/><Run Text=": "/><Run Text="&#x9;"/><InlineUIContainer>
+                    		<TextBox x:Name="textBox5" Height="23" TextWrapping="Wrap"  Width="479"/>
+                    	</InlineUIContainer><LineBreak/><Run Text=" "/><Run Text="&#x9;&#x9;"/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+                    		<Button x:Name="buttonm" Content="Atualizar musica" Width="116" Click="editMusica"/>
+
+                    	</InlineUIContainer><Run Text="  "/></TextBlock>
+                </Grid>
+            </TabItem>
+
+
+        </TabControl>
+
+    </Grid>
+</Window>

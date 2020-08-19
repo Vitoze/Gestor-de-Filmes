@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="gestor_filmesWebSite.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> Gestor de Filmes</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a class="navbar-brand" runat="server" href="~/">
+                         <img style="max-width:30px; margin-top: -7px;"
+                            src="../image/11.png">
+                    </a>
+                    <a class="navbar-brand" runat="server" href="~/">Gestor de Filmes</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/">Inicio</a></li>
+                        <li><a runat="server" href="~/About">Sobre</a></li>
+
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-rss"></i>Adicionar <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a runat="server"  href="~/Add/Filmes">Filmes</a></li>
+                            <li><a runat="server"  href="~/Add/Atores">Atores</a></li>
+                            <li><a runat="server"  href="~/Add/Diretores">Diretores</a></li>
+                            <li><a runat="server"  href="~/Add/Escritores">Escritores</a></li>
+                            <li><a runat="server"  href="~/Add/Musicas">Músicas</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a runat="server"  href="~/Add/Premios">Prémios a um filme</a></li>
+                            <li><a runat="server"  href="~/Add/Trailers">Trailers a um filme</a></li>
+                            <li><a runat="server"  href="~/Add/Lancamento">Lançamento a um filme</a></li>
+
+
+                          </ul>
+                        </li>
+
+
+
+                    </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a runat="server"  href="~/"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>   
+                            <li><a runat="server" href="~/Account/Login"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span></a></li>
+                        </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Gestor de Filmes - Interação Humano-computador</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
